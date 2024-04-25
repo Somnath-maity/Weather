@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP - Basics of JS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<wrapper>
+    <div class="card">
+
+        <div class="Search">
+            <div  ><input type="text" placeholder="Enter your City name" id="Cityname" spellcheck="false"></div>
+                <div>    <img id="Searchbtn" src="files/search.png"></div>
+        </div>
+        <div class="error"><p>Invalid City Name</p></div>
+        <div class="Results">
+            <div class="Wthr">
+                <div class="nameandtemp">
+                    <div id="imgg">
+                        <!-- Image Displayer -->
+                    </div>
+                    <div class="Cityname">
+                        <p id="Citname"> </p>
+                        <p id="citytemp"></p>
+                        <!-- Image Displayer -->
+                    </div>
+                </div>
+
+                <div class="otherdetails">
+
+                    <div class="wind">
+                        <div id="windimg">
+                            <img src="files/Humid.png">
+                            <!-- Image Displayer -->
+                        </div>
+                        <div id="winddetails">
+                            <p id="humidity"> </p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <div id="windspeedimg">
+                            <img src="files/windspeed.png">
+                            <!-- Image Displayer -->
+                        </div>
+                        <div id="windspeeddetails">
+                            <p id="windspeed"></p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</wrapper>
+</body>
+<script src="index.js"></script>
+
+</html>

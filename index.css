@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+wrapper{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.card{
+    align-items: center;
+    max-width: fit-content;
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+    background-color: black;
+    opacity: 0.9;
+    display: inline-block;
+
+    
+} 
+.error{
+    display: none;
+}
+
+
+.card p{
+    filter: contrast(100%);
+  color: white;
+  font-size: 0.8rem;
+}
+.Wthr{
+    display: none;
+}
+
+.Search{
+
+    max-width: 100%;
+    max-height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+.Search input{
+   background: #a1a6eb;
+   padding: 0.5em 0em 0.5em 0.5em;
+   width: 20vw;
+   color: #555;
+   border-radius: 2em;
+}
+.Search img{
+    border: 0;
+    outline: 0;
+    padding: 3px;
+    max-width: 3em;
+    max-height: 2em;
+    border-radius: 5em;
+    flex: 1;
+ }
+
+.nameandtemp{
+    padding-top: 20px;
+    text-align: center;
+       }
+
+.Cityname p{
+font-weight:bolder;
+font-size: 2rem;
+display: inline;
+}
+
+.otherdetails{
+    display: flex;
+    justify-content: space-between;
+}
+.wind{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.wind img{
+    height: 3rem;
+}
+
+
+@media(orientation: portrait){
+
+  
+    .card{
+        margin-top: 6vh;
+        max-width:35vw;
+        height: fit-content;
+        padding: 5rem 1rem;
+        border-radius: 2rem;
+        background-color: black;
+        opacity: 0.9;
+        
+    } 
+    .otherdetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+/*
+FIND THE BUG
+.Results div{
+float: left;
+padding: 10px;
+} */
+
+
+
+ 
