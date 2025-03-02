@@ -105,6 +105,11 @@ display: inline;
         flex-direction: column;
     }
 
+    
+.error{
+    display: none;
+}
+
 }
 /*
 FIND THE BUG
