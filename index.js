@@ -58,5 +58,5 @@ document.querySelector('#Searchbtn').addEventListener('click', function () {
 document.querySelector('#Cityname').addEventListener('click', function () {
 
     
-    document.querySelector(".error").style.display = "none";
+    document.querySelector(".error").style.display = null;
 })
