@@ -50,3 +50,13 @@ document.querySelector('#Searchbtn').addEventListener('click', function () {
     checkweather();
 
 })
+
+
+
+
+
+document.querySelector('#Cityname').addEventListener('click', function () {
+
+    
+    document.querySelector(".error").style.display = "none";
+})
